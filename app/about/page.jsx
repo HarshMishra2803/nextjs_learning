@@ -6,12 +6,12 @@ const about = () => {
        <h1 className="text-xl">
         problem solved by nextjs....
        </h1>
-       <ul >
+       {/* <ul >
         <li >Full stack Solution</li>
         <li>File Based Routing</li>
         <li>Additional Feature like router from next/navigation</li>
         <li>optimized Rendering </li>
-       </ul>
+       </ul> */}
     </div>
   )
 }

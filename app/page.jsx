@@ -9,8 +9,9 @@ export default function Home() {
   return (
 
     <div>
-      i am a home page{count}
-      <button onClick={()=>setCount(count+1)}>click me</button>
+      i am a home page
+      {/* i am a home page{count} */}
+      {/* <button onClick={()=>setCount(count+1)}>click me</button> */}
     </div>
   );
 }
