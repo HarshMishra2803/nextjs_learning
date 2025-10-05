@@ -4,7 +4,7 @@ const about = () => {
   return (
     <div>
        <h1 className="text-xl">
-        problem solved by nextjs....
+        This is a about page
        </h1>
        {/* <ul >
         <li >Full stack Solution</li>
@@ -17,3 +17,9 @@ const about = () => {
 }
 
 export default about
+
+export const metadata = {
+  title: " About Facebook - Connect with the World",
+  description:
+    "This is about the facebook and we can connect with the world using facebook",
+};
