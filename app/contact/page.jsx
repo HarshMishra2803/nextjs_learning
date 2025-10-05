@@ -1,8 +1,12 @@
 import React from 'react'
+import Script from 'next/script'
 
 const contact = () => {
   return (
     <div>
+      <script>
+        {` alert("this is contact page") `}
+      </script>
       i am contact page
     </div>
   )
